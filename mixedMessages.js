@@ -10,6 +10,8 @@ const mood = ['Happy','Sad','Fast','Slow','Chill','Spiritual','Off Beat']
 // console.log(decade)
 
 
+// Function choosing a randowm item from each array
+
 const musicFinder = () => {
     let randomYear = decade[Math.floor(Math.random() * decade.length)];
     // console.log(randomYear)
@@ -20,5 +22,7 @@ const musicFinder = () => {
     console.log("Im a Music Finder, i will find something for you to listen to!!")
     console.log(`I think you should listen to ${randomMood}, ${randomGenre} music from the ${randomYear}`)
 } 
+
+// Runs the functon
 
 musicFinder()
